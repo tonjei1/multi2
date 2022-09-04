@@ -8,7 +8,7 @@ pipeline{
     }
     stage('parallel-job'){
       parallel{
-        stage('sub-job1'){
+        stage('sub-job11'){
           steps{
             echo 'action1'
           }
